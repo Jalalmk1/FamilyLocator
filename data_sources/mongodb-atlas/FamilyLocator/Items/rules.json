@@ -1,0 +1,34 @@
+{
+    "collection": "Items",
+    "database": "FamilyLocator",
+    "roles": [
+        {
+            "name": "admin",
+            "apply_when": {
+                "%%user.custom_data.isGlobalAdmin": true
+            },
+            "document_filters": {
+                "write": true,
+                "read": true
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true
+        },
+        {
+            "name": "user",
+            "apply_when": {},
+            "document_filters": {
+                "write": true,
+                "read": true
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true
+        }
+    ]
+}

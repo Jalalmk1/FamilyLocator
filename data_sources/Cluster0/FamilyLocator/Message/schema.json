@@ -1,0 +1,40 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "string"
+        },
+        "childId": {
+            "bsonType": "string"
+        },
+        "createdAt": {
+            "bsonType": "long"
+        },
+        "groupCode": {
+            "bsonType": "string"
+        },
+        "imageUri": {
+            "bsonType": "string"
+        },
+        "message": {
+            "bsonType": "string"
+        },
+        "parentId": {
+            "bsonType": "string"
+        },
+        "profileUrl": {
+            "bsonType": "string"
+        },
+        "senderId": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "createdAt",
+        "groupCode",
+        "imageUri",
+        "senderId"
+    ],
+    "title": "Message",
+    "type": "object"
+}

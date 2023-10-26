@@ -1,0 +1,7 @@
+{
+    "enabled": false,
+    "mongo_service_name": "Cluster0",
+    "database_name": "FamilyLocator",
+    "collection_name": "FamilyLocator",
+    "user_id_field": "id"
+}
