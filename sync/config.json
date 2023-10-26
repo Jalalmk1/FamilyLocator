@@ -1,6 +1,6 @@
 {
     "type": "flexible",
-    "state": "enabled",
+    "state": "",
     "development_mode_enabled": false,
     "service_name": "Cluster0",
     "database_name": "FamilyLocator",
@@ -13,5 +13,12 @@
     },
     "collection_queryable_fields_names": {
         "Items": []
-    }
+    },
+    "asymmetric_tables": [
+        "Message",
+        "User",
+        "PlaceModel",
+        "GroupModel",
+        "ChildModel"
+    ]
 }
