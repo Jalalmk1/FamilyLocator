@@ -1,7 +1,7 @@
 {
     "type": "flexible",
     "state": "enabled",
-    "development_mode_enabled": false,
+    "development_mode_enabled": true,
     "service_name": "Cluster0",
     "database_name": "FamilyLocator",
     "last_disabled": 1697199725,
