@@ -1,0 +1,40 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "string"
+        },
+        "batteryStatus": {
+            "bsonType": "string"
+        },
+        "childId": {
+            "bsonType": "string"
+        },
+        "groupCode": {
+            "bsonType": "string"
+        },
+        "latitude": {
+            "bsonType": "double"
+        },
+        "longitude": {
+            "bsonType": "double"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "parentId": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "batteryStatus",
+        "childId",
+        "groupCode",
+        "latitude",
+        "longitude",
+        "name",
+        "parentId"
+    ],
+    "title": "ChildModel",
+    "type": "object"
+}

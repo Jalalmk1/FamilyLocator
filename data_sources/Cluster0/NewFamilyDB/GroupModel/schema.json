@@ -1,0 +1,44 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "string"
+        },
+        "code": {
+            "bsonType": "string"
+        },
+        "createrName": {
+            "bsonType": "string"
+        },
+        "groupName": {
+            "bsonType": "string"
+        },
+        "lang": {
+            "bsonType": "double"
+        },
+        "lat": {
+            "bsonType": "double"
+        },
+        "location": {
+            "bsonType": "string"
+        },
+        "parentKey": {
+            "bsonType": "string"
+        },
+        "timeStamp": {
+            "bsonType": "long"
+        }
+    },
+    "required": [
+        "_id",
+        "code",
+        "createrName",
+        "groupName",
+        "lang",
+        "lat",
+        "location",
+        "parentKey",
+        "timeStamp"
+    ],
+    "title": "GroupModel",
+    "type": "object"
+}

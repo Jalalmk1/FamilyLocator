@@ -1,0 +1,28 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "string"
+        },
+        "lang": {
+            "bsonType": "double"
+        },
+        "lat": {
+            "bsonType": "double"
+        },
+        "parentKey": {
+            "bsonType": "string"
+        },
+        "placeName": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "lang",
+        "lat",
+        "parentKey",
+        "placeName"
+    ],
+    "title": "PlaceModel",
+    "type": "object"
+}
